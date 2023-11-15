@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'icomoon_HV';
+  src:  url('/wp-content/uploads/elementor/custom-icons/icomoon_HV/fonts/icomoon_HV.eot?sehhun');
+  src:  url('/wp-content/uploads/elementor/custom-icons/icomoon_HV/fonts/icomoon_HV.eot?sehhun#iefix') format('embedded-opentype'),
+    url('/wp-content/uploads/elementor/custom-icons/icomoon_HV/fonts/icomoon_HV.ttf?sehhun') format('truetype'),
+    url('/wp-content/uploads/elementor/custom-icons/icomoon_HV/fonts/icomoon_HV.woff?sehhun') format('woff'),
+    url('/wp-content/uploads/elementor/custom-icons/icomoon_HV/fonts/icomoon_HV.svg?sehhun#icomoon_HV') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon_HV' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Liste:before {
+  content: "\e900";
+  color: #eae2e7;
+}
+.icon-Mail:before {
+  content: "\e901";
+  color: #7c76a8;
+}
+.icon-Tel:before {
+  content: "\e902";
+  color: #7c76a8;
+}
