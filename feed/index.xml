@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Dr. Heather Veltman</title>
-	<atom:link href="https://https://jaayo.github.io/HeatherVeltmanSite/feed/" rel="self" type="application/rss+xml" />
-	<link>https://https://jaayo.github.io/HeatherVeltmanSite/</link>
+	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
 	<description>Psychothérapeute et docteure</description>
 	<lastBuildDate>Mon, 16 Oct 2023 17:53:40 +0000</lastBuildDate>
 	<language>fr-FR</language>
@@ -21,9 +21,9 @@
 	<generator>https://wordpress.org/?v=6.4.1</generator>
 
 <image>
-	<url>https://https://jaayo.github.io/HeatherVeltmanSite/wp-content/uploads/2022/03/cropped-LogoDrVeltman_web_Icone_FondViolet_RGB-32x32.jpg</url>
+	<url>/wp-content/uploads/2022/03/cropped-LogoDrVeltman_web_Icone_FondViolet_RGB-32x32.jpg</url>
 	<title>Dr. Heather Veltman</title>
-	<link>https://https://jaayo.github.io/HeatherVeltmanSite/</link>
+	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
