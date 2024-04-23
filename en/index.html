@@ -38,7 +38,7 @@
 	<link rel="alternate" type="application/rss+xml" title="Dr. Heather Veltman &raquo; Comments Feed"
 		href="/en/comments/feed/">
 	<script>
-		window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/https:\/\/jaayo.github.io\/HeatherVeltmanSite\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.1" } };
+		window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.1" } };
 		/*! This file is auto-generated */
 		!function (i, n) { var o, s, e; function c(e) { try { var t = { supportTests: e, timestamp: (new Date).valueOf() }; sessionStorage.setItem(o, JSON.stringify(t)) } catch (e) { } } function p(e, t, n) { e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0); var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data), r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data)); return t.every(function (e, t) { return e === r[t] }) } function u(e, t, n) { switch (t) { case "flag": return n(e, "🏳️‍⚧️", "🏳️​⚧️") ? !1 : !n(e, "🇺🇳", "🇺​🇳") && !n(e, "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿"); case "emoji": return !n(e, "🫱🏻‍🫲🏿", "🫱🏻​🫲🏿") }return !1 } function f(e, t, n) { var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300, 150) : i.createElement("canvas"), a = r.getContext("2d", { willReadFrequently: !0 }), o = (a.textBaseline = "top", a.font = "600 32px Arial", {}); return e.forEach(function (e) { o[e] = t(a, e, n) }), o } function t(e) { var t = i.createElement("script"); t.src = e, t.defer = !0, i.head.appendChild(t) } "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", s = ["flag", "emoji"], n.supports = { everything: !0, everythingExceptFlag: !0 }, e = new Promise(function (e) { i.addEventListener("DOMContentLoaded", e, { once: !0 }) }), new Promise(function (t) { var n = function () { try { var e = JSON.parse(sessionStorage.getItem(o)); if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests } catch (e) { } return null }(); if (!n) { if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" != typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try { var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p.toString()].join(",") + "));", r = new Blob([e], { type: "text/javascript" }), a = new Worker(URL.createObjectURL(r), { name: "wpTestEmojiSupports" }); return void (a.onmessage = function (e) { c(n = e.data), a.terminate(), t(n) }) } catch (e) { } c(n = f(s, u, p)) } t(n) }).then(function (e) { for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n.supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]); n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n.DOMReady = !1, n.readyCallback = function () { n.DOMReady = !0 } }).then(function () { return e }).then(function () { var e; n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji))) })) }((window, document), window._wpemojiSettings);
 	</script>
@@ -776,7 +776,8 @@
 									<ul id="menu-1-a88b616" class="elementor-nav-menu">
 										<li
 											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1451 current_page_item menu-item-1466">
-											<a href="/en/" aria-current="page" class="elementor-item elementor-item-active">Home</a></li>
+											<a href="/en/" aria-current="page" class="elementor-item elementor-item-active">Home</a>
+										</li>
 										<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1467"><a
 												href="/en/method/" class="elementor-item">Method</a></li>
 										<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1468"><a
@@ -795,7 +796,8 @@
 										<li
 											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1451 current_page_item menu-item-1466">
 											<a href="/en/" aria-current="page" class="elementor-item elementor-item-active"
-												tabindex="-1">Home</a></li>
+												tabindex="-1">Home</a>
+										</li>
 										<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1467"><a
 												href="/en/method/" class="elementor-item" tabindex="-1">Method</a></li>
 										<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1468"><a
@@ -2230,7 +2232,8 @@
 									<ul id="menu-1-1192fb4" class="elementor-nav-menu sm-vertical">
 										<li
 											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1451 current_page_item menu-item-284">
-											<a href="/en/" aria-current="page" class="elementor-item elementor-item-active">Home</a></li>
+											<a href="/en/" aria-current="page" class="elementor-item elementor-item-active">Home</a>
+										</li>
 										<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-227"><a
 												href="/en/method/" class="elementor-item">Method</a></li>
 										<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-226"><a
@@ -2242,7 +2245,8 @@
 										<li
 											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1451 current_page_item menu-item-284">
 											<a href="/en/" aria-current="page" class="elementor-item elementor-item-active"
-												tabindex="-1">Home</a></li>
+												tabindex="-1">Home</a>
+										</li>
 										<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-227"><a
 												href="/en/method/" class="elementor-item" tabindex="-1">Method</a></li>
 										<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-226"><a
@@ -2262,7 +2266,8 @@
 									<ul id="menu-1-afe0cb1" class="elementor-nav-menu sm-vertical">
 										<li
 											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1451 current_page_item menu-item-284">
-											<a href="/en/" aria-current="page" class="elementor-item elementor-item-active">Home</a></li>
+											<a href="/en/" aria-current="page" class="elementor-item elementor-item-active">Home</a>
+										</li>
 										<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-227"><a
 												href="/en/method/" class="elementor-item">Method</a></li>
 										<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-226"><a
@@ -2274,7 +2279,8 @@
 										<li
 											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1451 current_page_item menu-item-284">
 											<a href="/en/" aria-current="page" class="elementor-item elementor-item-active"
-												tabindex="-1">Home</a></li>
+												tabindex="-1">Home</a>
+										</li>
 										<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-227"><a
 												href="/en/method/" class="elementor-item" tabindex="-1">Method</a></li>
 										<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-226"><a
@@ -3037,7 +3043,7 @@
 	<script src="/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1" id="wp-hooks-js"></script>
 	<script src="/wp-content/plugins/jet-menu/assets/public/lib/vue/vue.min.js?ver=2.6.11" id="jet-vue-js"></script>
 	<script
-		id="jet-menu-public-scripts-js-extra">var jetMenuPublicSettings = { "version": "2.4.2", "ajaxUrl": "https:\/\/https:\/\/jaayo.github.io\/HeatherVeltmanSite\/wp-admin\/admin-ajax.php", "isMobile": "false", "getElementorTemplateApiUrl": "https:\/\/https:\/\/jaayo.github.io\/HeatherVeltmanSite\/en\/wp-json\/jet-menu-api\/v2\/get-elementor-template-content", "getBlocksTemplateApiUrl": "https:\/\/https:\/\/jaayo.github.io\/HeatherVeltmanSite\/en\/wp-json\/jet-menu-api\/v2\/get-blocks-template-content", "menuItemsApiUrl": "https:\/\/https:\/\/jaayo.github.io\/HeatherVeltmanSite\/en\/wp-json\/jet-menu-api\/v2\/get-menu-items", "restNonce": "3437b79f58", "devMode": "false", "wpmlLanguageCode": "en", "menuSettings": { "jetMenuRollUp": "true", "jetMenuMouseleaveDelay": "500", "jetMenuMegaWidthType": "selector", "jetMenuMegaWidthSelector": ".elementor-container", "jetMenuMegaOpenSubType": "hover", "jetMenuMegaAjax": "false" } };</script>
+		id="jet-menu-public-scripts-js-extra">var jetMenuPublicSettings = { "version": "2.4.2", "ajaxUrl": "\/wp-admin\/admin-ajax.php", "isMobile": "false", "getElementorTemplateApiUrl": "\/en\/wp-json\/jet-menu-api\/v2\/get-elementor-template-content", "getBlocksTemplateApiUrl": "\/en\/wp-json\/jet-menu-api\/v2\/get-blocks-template-content", "menuItemsApiUrl": "\/en\/wp-json\/jet-menu-api\/v2\/get-menu-items", "restNonce": "3437b79f58", "devMode": "false", "wpmlLanguageCode": "en", "menuSettings": { "jetMenuRollUp": "true", "jetMenuMouseleaveDelay": "500", "jetMenuMegaWidthType": "selector", "jetMenuMegaWidthSelector": ".elementor-container", "jetMenuMegaOpenSubType": "hover", "jetMenuMegaAjax": "false" } };</script>
 	<script src="/wp-content/plugins/jet-menu/assets/public/js/legacy/jet-menu-public-scripts.js?ver=2.4.2"
 		id="jet-menu-public-scripts-js"></script>
 	<script
@@ -3058,29 +3064,29 @@
 		wp.i18n.setLocaleData({ 'text directionltr': ['ltr'] });
 	</script>
 	<script
-		id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = { "ajaxurl": "https:\/\/https:\/\/jaayo.github.io\/HeatherVeltmanSite\/wp-admin\/admin-ajax.php", "nonce": "c81b50a959", "urls": { "assets": "https:\/\/https:\/\/jaayo.github.io\/HeatherVeltmanSite\/wp-content\/plugins\/elementor-pro\/assets\/", "rest": "https:\/\/https:\/\/jaayo.github.io\/HeatherVeltmanSite\/en\/wp-json\/" }, "shareButtonsNetworks": { "facebook": { "title": "Facebook", "has_counter": true }, "twitter": { "title": "Twitter" }, "linkedin": { "title": "LinkedIn", "has_counter": true }, "pinterest": { "title": "Pinterest", "has_counter": true }, "reddit": { "title": "Reddit", "has_counter": true }, "vk": { "title": "VK", "has_counter": true }, "odnoklassniki": { "title": "OK", "has_counter": true }, "tumblr": { "title": "Tumblr" }, "digg": { "title": "Digg" }, "skype": { "title": "Skype" }, "stumbleupon": { "title": "StumbleUpon", "has_counter": true }, "mix": { "title": "Mix" }, "telegram": { "title": "Telegram" }, "pocket": { "title": "Pocket", "has_counter": true }, "xing": { "title": "XING", "has_counter": true }, "whatsapp": { "title": "WhatsApp" }, "email": { "title": "Email" }, "print": { "title": "Print" } }, "facebook_sdk": { "lang": "en_US", "app_id": "" }, "lottie": { "defaultAnimationUrl": "https:\/\/https:\/\/jaayo.github.io\/HeatherVeltmanSite\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json" } };</script>
+		id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = { "ajaxurl": "\/wp-admin\/admin-ajax.php", "nonce": "c81b50a959", "urls": { "assets": "\/wp-content\/plugins\/elementor-pro\/assets\/", "rest": "\/en\/wp-json\/" }, "shareButtonsNetworks": { "facebook": { "title": "Facebook", "has_counter": true }, "twitter": { "title": "Twitter" }, "linkedin": { "title": "LinkedIn", "has_counter": true }, "pinterest": { "title": "Pinterest", "has_counter": true }, "reddit": { "title": "Reddit", "has_counter": true }, "vk": { "title": "VK", "has_counter": true }, "odnoklassniki": { "title": "OK", "has_counter": true }, "tumblr": { "title": "Tumblr" }, "digg": { "title": "Digg" }, "skype": { "title": "Skype" }, "stumbleupon": { "title": "StumbleUpon", "has_counter": true }, "mix": { "title": "Mix" }, "telegram": { "title": "Telegram" }, "pocket": { "title": "Pocket", "has_counter": true }, "xing": { "title": "XING", "has_counter": true }, "whatsapp": { "title": "WhatsApp" }, "email": { "title": "Email" }, "print": { "title": "Print" } }, "facebook_sdk": { "lang": "en_US", "app_id": "" }, "lottie": { "defaultAnimationUrl": "\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json" } };</script>
 	<script src="/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.16.2"
 		id="elementor-pro-frontend-js"></script>
 	<script src="/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
 		id="elementor-waypoints-js"></script>
 	<script src="/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
 	<script
-		id="elementor-frontend-js-before">var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close", "a11yCarouselWrapperAriaLabel": "Carousel | Horizontal scrolling: Arrow Left & Right", "a11yCarouselPrevSlideMessage": "Previous slide", "a11yCarouselNextSlideMessage": "Next slide", "a11yCarouselFirstSlideMessage": "This is the first slide", "a11yCarouselLastSlideMessage": "This is the last slide", "a11yCarouselPaginationBulletMessage": "Go to slide" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile Portrait", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Landscape", "value": 880, "default_value": 880, "direction": "max", "is_enabled": false }, "tablet": { "label": "Tablet Portrait", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Landscape", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": false }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": false }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } } }, "version": "3.16.5", "is_static": false, "experimentalFeatures": { "e_dom_optimization": true, "e_optimized_assets_loading": true, "e_optimized_css_loading": true, "additional_custom_breakpoints": true, "theme_builder_v2": true, "hello-theme-header-footer": true, "landing-pages": true, "page-transitions": true, "notes": true, "form-submissions": true, "e_scroll_snap": true }, "urls": { "assets": "https:\/\/https:\/\/jaayo.github.io\/HeatherVeltmanSite\/wp-content\/plugins\/elementor\/assets\/" }, "swiperClass": "swiper-container", "settings": { "page": [], "editorPreferences": [] }, "kit": { "active_breakpoints": ["viewport_mobile", "viewport_tablet"], "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description", "hello_header_logo_type": "logo", "hello_header_menu_layout": "horizontal", "hello_footer_logo_type": "logo" }, "post": { "id": 1451, "title": "Dr.%20Heather%20Veltman", "excerpt": "", "featuredImage": "https:\/\/https:\/\/jaayo.github.io\/HeatherVeltmanSite\/wp-content\/uploads\/2022\/06\/Logo-SEO.png" } };</script>
+		id="elementor-frontend-js-before">var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close", "a11yCarouselWrapperAriaLabel": "Carousel | Horizontal scrolling: Arrow Left & Right", "a11yCarouselPrevSlideMessage": "Previous slide", "a11yCarouselNextSlideMessage": "Next slide", "a11yCarouselFirstSlideMessage": "This is the first slide", "a11yCarouselLastSlideMessage": "This is the last slide", "a11yCarouselPaginationBulletMessage": "Go to slide" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile Portrait", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Landscape", "value": 880, "default_value": 880, "direction": "max", "is_enabled": false }, "tablet": { "label": "Tablet Portrait", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Landscape", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": false }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": false }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } } }, "version": "3.16.5", "is_static": false, "experimentalFeatures": { "e_dom_optimization": true, "e_optimized_assets_loading": true, "e_optimized_css_loading": true, "additional_custom_breakpoints": true, "theme_builder_v2": true, "hello-theme-header-footer": true, "landing-pages": true, "page-transitions": true, "notes": true, "form-submissions": true, "e_scroll_snap": true }, "urls": { "assets": "\/wp-content\/plugins\/elementor\/assets\/" }, "swiperClass": "swiper-container", "settings": { "page": [], "editorPreferences": [] }, "kit": { "active_breakpoints": ["viewport_mobile", "viewport_tablet"], "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description", "hello_header_logo_type": "logo", "hello_header_menu_layout": "horizontal", "hello_footer_logo_type": "logo" }, "post": { "id": 1451, "title": "Dr.%20Heather%20Veltman", "excerpt": "", "featuredImage": "\/wp-content\/uploads\/2022\/06\/Logo-SEO.png" } };</script>
 	<script src="/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.16.5" id="elementor-frontend-js"></script>
 	<script src="/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.16.2"
 		id="pro-elements-handlers-js"></script>
 	<script
 		id="jet-blocks-js-extra">var jetBlocksData = { "recaptchaConfig": "" };
-			var JetHamburgerPanelSettings = { "ajaxurl": "https:\/\/https:\/\/jaayo.github.io\/HeatherVeltmanSite\/wp-admin\/admin-ajax.php", "isMobile": "false", "templateApiUrl": "https:\/\/https:\/\/jaayo.github.io\/HeatherVeltmanSite\/en\/wp-json\/jet-blocks-api\/v1\/elementor-template", "devMode": "false", "restNonce": "3437b79f58" };</script>
+			var JetHamburgerPanelSettings = { "ajaxurl": "\/wp-admin\/admin-ajax.php", "isMobile": "false", "templateApiUrl": "\/en\/wp-json\/jet-blocks-api\/v1\/elementor-template", "devMode": "false", "restNonce": "3437b79f58" };</script>
 	<script src="/wp-content/plugins/jet-blocks/assets/js/jet-blocks.min.js?ver=1.3.8.2" id="jet-blocks-js"></script>
 	<script
-		id="jet-elements-js-extra">var jetElements = { "ajaxUrl": "https:\/\/https:\/\/jaayo.github.io\/HeatherVeltmanSite\/wp-admin\/admin-ajax.php", "isMobile": "false", "templateApiUrl": "https:\/\/https:\/\/jaayo.github.io\/HeatherVeltmanSite\/en\/wp-json\/jet-elements-api\/v1\/elementor-template", "devMode": "false", "messages": { "invalidMail": "Please specify a valid e-mail" } };</script>
+		id="jet-elements-js-extra">var jetElements = { "ajaxUrl": "\/wp-admin\/admin-ajax.php", "isMobile": "false", "templateApiUrl": "\/en\/wp-json\/jet-elements-api\/v1\/elementor-template", "devMode": "false", "messages": { "invalidMail": "Please specify a valid e-mail" } };</script>
 	<script src="/wp-content/plugins/jet-elements/assets/js/jet-elements.min.js?ver=2.6.13.1"
 		id="jet-elements-js"></script>
 	<script src="/wp-content/plugins/jet-menu/includes/elementor/assets/public/js/legacy/widgets-scripts.js?ver=2.4.2"
 		id="jet-menu-elementor-widgets-scripts-js"></script>
 	<script
-		id="jet-tabs-frontend-js-extra">var JetTabsSettings = { "ajaxurl": "https:\/\/https:\/\/jaayo.github.io\/HeatherVeltmanSite\/wp-admin\/admin-ajax.php", "isMobile": "false", "templateApiUrl": "https:\/\/https:\/\/jaayo.github.io\/HeatherVeltmanSite\/en\/wp-json\/jet-tabs-api\/v1\/elementor-template", "devMode": "false" };</script>
+		id="jet-tabs-frontend-js-extra">var JetTabsSettings = { "ajaxurl": "\/wp-admin\/admin-ajax.php", "isMobile": "false", "templateApiUrl": "\/en\/wp-json\/jet-tabs-api\/v1\/elementor-template", "devMode": "false" };</script>
 	<script src="/wp-content/plugins/jet-tabs/assets/js/jet-tabs-frontend.min.js?ver=2.1.25.3"
 		id="jet-tabs-frontend-js"></script>
 	<script src="/wp-content/plugins/jet-tricks/assets/js/lib/tippy/popperjs.js?ver=2.5.2"
@@ -3092,7 +3098,7 @@
 	<script src="/wp-content/plugins/jet-tricks/assets/js/jet-tricks-frontend.js?ver=1.4.6.2"
 		id="jet-tricks-frontend-js"></script>
 	<script
-		id="jet-blog-js-extra">var JetBlogSettings = { "ajaxurl": "https:\/\/https:\/\/jaayo.github.io\/HeatherVeltmanSite\/en\/?simply_static_page=8631&nocache=1700535590&jet_blog_ajax=1" };</script>
+		id="jet-blog-js-extra">var JetBlogSettings = { "ajaxurl": "\/en\/?simply_static_page=8631&nocache=1700535590&jet_blog_ajax=1" };</script>
 	<script src="/wp-content/plugins/jet-blog/assets/js/jet-blog.min.js?ver=2.3.5.1" id="jet-blog-js"></script>
 
 </body>
